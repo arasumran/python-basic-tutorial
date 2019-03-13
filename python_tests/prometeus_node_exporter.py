@@ -11,8 +11,8 @@ def app():
     try:
         import ftplib
         f = ftplib.FTP()
-        f.connect("10.133.151.9", 23, timeout=2)
-        f.login("atlantis", "q1w2e3r4")
+        f.connect("host", port=21, timeout=2)
+        f.login("user", "pass")
         IN_PROGRESS.info({'status': 'OK'})
     except:
         IN_PROGRESS.info({'status': 'ERROR'})
