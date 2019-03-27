@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-page = requests.get('https://www.teknosa.com/preo-p-watch-3-akilli-saat-akilli-bileklik-p-145056438')
+page = requests.get('https://www.hebele.com/preo-p-watch-3-akilli-saat-akilli-bileklik-p-145056438')
 soup = BeautifulSoup(page.text, 'html.parser')
 
 image_url = soup.find(class_='product-image-gallery').contents[1].find('img')

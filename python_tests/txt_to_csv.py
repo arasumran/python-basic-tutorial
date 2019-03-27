@@ -4,6 +4,8 @@ from __future__ import unicode_literals
 
 import csv
 
+from idna import unicode
+
 un = "\u001A"
 
 csv_file = "heble.csv"
