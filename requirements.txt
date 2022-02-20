@@ -9,7 +9,7 @@ coverage==4.5.2
 curtsies==0.3.0
 docutils==0.14
 gitdb==0.6.4
-GitPython==0.3.6
+GitPython==3.1.27
 greenlet==0.4.15
 html5lib==1.0.1
 idna==2.8
