@@ -9,7 +9,7 @@ coverage==4.5.2
 curtsies==0.3.0
 docutils==0.14
 gitdb==0.6.4
-GitPython==0.3.6
+GitPython==3.1.27
 greenlet==0.4.15
 html5lib==1.0.1
 idna==2.8
@@ -18,13 +18,13 @@ Jinja2==2.10
 MarkupSafe==1.1.1
 nose==1.3.7
 packaging==19.0
-Pillow==8.1.0
+Pillow==9.0.1
 Pygments==2.3.1
 pyparsing==2.3.1
 PyPDF2==1.26.0
 pypi-publisher==0.0.4
 pytz==2018.9
-reportlab==3.5.34
+reportlab==3.5.55
 requests==2.21.0
 six==1.12.0
 smmap==0.9.0
