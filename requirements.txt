@@ -38,3 +38,4 @@ wcwidth==0.1.7
 webencodings==0.5.1
 xhtml2pdf==0.2.3
 xpdf-python==0.0.10
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
